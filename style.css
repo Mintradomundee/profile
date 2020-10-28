@@ -1,0 +1,126 @@
+
+body {
+  background-color: #e1e5f2;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  line-height: 70%;
+}
+
+h1 {
+  position: relative;
+  bottom: -30px;
+  color: #022b3a;
+
+}
+
+h4 {
+  position: relative;
+  bottom: -30px;
+  color: #022b3a;
+  padding-bottom: 10px;
+  line-height: 120%;
+}
+
+a{
+  text-decoration: none;
+}
+
+img {
+  position: relative;
+  bottom: -30px;
+  border-radius: 100px;
+  height: auto;
+  width: 150px;
+}
+
+p {
+ position: relative;
+ bottom: -40px;
+ line-height: 120%;
+}
+
+
+.container{
+  width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.card-1 {
+  height: 450px;
+  width: 700px;
+  background-color: white;
+  margin: auto;
+  box-shadow: 0 5px 10px rgb(220, 218, 218);
+}
+
+.card-2 {
+  width: 700px;
+  height: 100px;
+  background-color: white;
+  margin: auto;
+  box-shadow: 0 5px 10px rgb(220, 218, 218);
+}
+
+.icon a {
+  position: relative;
+  bottom: -15px;
+  color:  #1f7a8c;
+  font-size: 25px;
+}
+
+.btn-blue {
+  position: relative;
+  bottom: -60px;
+  color: #ffffff;
+  background-color: #022b3a;
+  padding: 5px 15px;
+  border-radius: 5px;
+  font-size: 20px;
+  word-wrap: break-word;
+}
+
+.btn-blue:hover {
+  background-color: #1f7a8c;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+  float: none;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+  .card-1 {
+    width: 500px;
+  }
+
+  .card-2 {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+
+  .card-1 {
+    width: 320px;
+  }
+
+  .card-2 {
+    width: 320px;
+  }
+}
+
